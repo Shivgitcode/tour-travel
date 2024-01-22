@@ -10,6 +10,8 @@ import cancellation from "./cancellation.svg";
 import experiences from "./experiences.svg";
 import payLater from "./payLater.svg";
 import reviews from "./reviews.svg";
+import blob from "./blob.svg";
+import blob2 from "./blob2.svg";
 
 export {
   cross,
@@ -24,4 +26,6 @@ export {
   experiences,
   payLater,
   reviews,
+  blob,
+  blob2,
 };

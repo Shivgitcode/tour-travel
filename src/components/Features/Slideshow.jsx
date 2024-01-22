@@ -12,7 +12,7 @@ export default function Slideshow() {
     slidesToScroll: 1,
   };
   return (
-    <div>
+    <div className="w-full relative z-[2] mt-[48px] mb-[45px]">
       <Slider {...settings}>
         {features.map((el, index) => {
           return <SlideCard el={el} index={index}></SlideCard>;

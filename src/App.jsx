@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div className="w-screen h-screen box-border m-0 p-0 overflow-hidden">
+    <div className="w-screen h-screen box-border m-0 p-0">
       <Navbar></Navbar>
       <Sidebar></Sidebar>
       <Hero></Hero>
