@@ -12,6 +12,10 @@ import payLater from "./payLater.svg";
 import reviews from "./reviews.svg";
 import blob from "./blob.svg";
 import blob2 from "./blob2.svg";
+import fancy from "./svg_.svg";
+import LasVegas from "./asset 1.jpeg";
+import Chicago from "./asset 2.jpeg";
+import NewOrleans from "./asset 3.jpeg";
 
 export {
   cross,
@@ -28,4 +32,8 @@ export {
   reviews,
   blob,
   blob2,
+  fancy,
+  LasVegas,
+  Chicago,
+  NewOrleans,
 };

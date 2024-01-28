@@ -10,7 +10,7 @@ export default function Sidebar() {
 
   const variants = {
     visible: { opacity: 1, x: 0 },
-    hidden: { opacity: 0, x: -5 },
+    hidden: { opacity: 0, x: -20 },
   };
 
   return (
@@ -19,7 +19,9 @@ export default function Sidebar() {
       initial={"hidden"}
       animate={showSide ? "hidden" : "visible"}
       variants={variants}
-      className="w-screen h-screen absolute z-[2] top-0 bg-white overflow-hidden"
+      className={`w-screen h-screen absolute ${
+        showSide ? "z-[2]" : "z-[3]"
+      } top-0 bg-white overflow-hidden`}
     >
       <div
         className="w-full justify-start items-center m-0 pl-[16px] py-[14px] overflow-hidden"
@@ -29,7 +31,7 @@ export default function Sidebar() {
       >
         <img src={cross} alt="" className="w-[24px]" />
       </div>
-      <ul className="flex w-full flex-col items-center justify-center pt-[24px] pb-[32px] px-[16px] border-b-[2px] overflow-hidden gap-[8px]">
+      <ul className="flex w-full flex-col items-center justify-center pt-[24px] pb-[32px] px-[16px] overflow-hidden gap-[8px]">
         {activities.map((ac) => {
           return (
             <li className="flex w-full justify-between items-center py-[8px] pl-[8px] pr-[16px] rounded-[12px] my-shadow cursor-pointer">

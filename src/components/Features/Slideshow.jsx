@@ -2,15 +2,9 @@ import React from "react";
 import Slider from "react-slick";
 import { features } from "../../constants";
 import SlideCard from "./SlideCard";
+import { settings } from "../../constants";
 
 export default function Slideshow() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
   return (
     <div className="w-full relative z-[2] mt-[48px] mb-[45px]">
       <Slider {...settings}>

@@ -6,6 +6,9 @@ import {
   reviews,
   payLater,
   experiences,
+  LasVegas,
+  Chicago,
+  NewOrleans,
 } from "../assets";
 
 export const activities = [
@@ -45,3 +48,27 @@ export const features = [
     desc: "4.3 stars from 140,000+ Trustpilot reviews.",
   },
 ];
+
+export const destinations = [
+  {
+    name: "Las Vegas",
+    img: LasVegas,
+  },
+  {
+    name: "Chicago",
+    img: Chicago,
+  },
+  {
+    name: "New Orleans",
+    img: NewOrleans,
+  },
+];
+
+export var settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+
+  slidesToShow: 1.5,
+  slidesToScroll: 1,
+};

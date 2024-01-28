@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { mountain, mountain2 } from "../../assets";
 import { CiSearch } from "react-icons/ci";
+import { TourContext } from "../../context/TourContext";
 export default function Hero() {
+  const { showSide } = useContext(TourContext);
   return (
     <div className="w-full max-h-[330px]">
       <div className="w-full relative ">
@@ -17,12 +20,14 @@ export default function Hero() {
           <p className="text-[16px] pb-[16px] leading-[21px] text-center text-white font-semibold">
             One site,300,000+ travel experience you'll remember
           </p>
-          <div className="bg-white px-[16px] flex justify-start items-center rounded-[32px] my-[24px] relative w-full">
+          <div
+            className={`bg-white px-[16px] flex justify-start items-center rounded-[32px] my-[24px] relative  w-full`}
+          >
             <CiSearch fontSize={"20px"}></CiSearch>
             <input
               type="text"
               placeholder="Search for a place or activity"
-              className="appearence-none outline-none py-[16px] ml-[5px] bg-transparent placeholder:text-[16px] placeholder:leading-[18px] placeholder:text-[#4d4d4d] placeholder:font-medium w-full"
+              className="outline-none py-[16px] ml-[5px] bg-transparent placeholder:text-[16px] placeholder:leading-[18px] placeholder:text-[#4d4d4d] placeholder:font-medium w-full"
             />
           </div>
         </div>
