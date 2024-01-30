@@ -16,6 +16,12 @@ import fancy from "./svg_.svg";
 import LasVegas from "./asset 1.jpeg";
 import Chicago from "./asset 2.jpeg";
 import NewOrleans from "./asset 3.jpeg";
+import colosseum from "./Colosseum.jpg";
+import eiffel from "./Eiffel.jpg";
+import antelope from "./Antelope.jpg";
+import niagara from "./Niagara.jpg";
+import yellowstone from "./Yellowstone.jpg";
+import vatcan from "./Vatican.jpg";
 
 export {
   cross,
@@ -36,4 +42,10 @@ export {
   LasVegas,
   Chicago,
   NewOrleans,
+  eiffel,
+  colosseum,
+  niagara,
+  antelope,
+  yellowstone,
+  vatcan,
 };

@@ -9,6 +9,11 @@ import {
   LasVegas,
   Chicago,
   NewOrleans,
+  colosseum,
+  eiffel,
+  vatcan,
+  antelope,
+  niagara,
 } from "../assets";
 
 export const activities = [
@@ -64,11 +69,35 @@ export const destinations = [
   },
 ];
 
-export var settings = {
-  dots: true,
-  infinite: true,
-  speed: 500,
-
-  slidesToShow: 1.5,
-  slidesToScroll: 1,
-};
+export const attractions = [
+  {
+    name: "Colosseum",
+    img: colosseum,
+    info: "1250 Tours and Activities",
+  },
+  {
+    name: "Eiffel Tower",
+    img: eiffel,
+    info: "859 Tours and Activities",
+  },
+  {
+    name: "Vatican",
+    img: vatcan,
+    info: "953 Tours and Activities",
+  },
+  {
+    name: "Yellowstone Nation",
+    img: colosseum,
+    info: "85 Tours and Activities",
+  },
+  {
+    name: "Antelope Canyon",
+    img: antelope,
+    info: "142 Tours and Activities",
+  },
+  {
+    name: "Niagara Falls",
+    img: niagara,
+    info: "59 Tours and Activities",
+  },
+];
