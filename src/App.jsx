@@ -13,12 +13,13 @@ import Head from "./components/Head/Head";
 import Topdestinations from "./components/Top-Destinations/Topdestinations";
 import Flexible from "./components/flexible/Flexible";
 import TopAttraction from "./components/Top-Attractions/TopAttraction";
+import TopTours from "./components/Top-tours/TopTours";
 
 function App() {
   return (
     <div className="w-screen h-screen box-border m-0 p-0 overflow-x-hidden overflow-y-scroll">
       <Navbar></Navbar>
-      <Sidebar></Sidebar>
+      {/* <Sidebar></Sidebar> */}
       <Hero></Hero>
       <Features></Features>
       {/* <SearchBar></SearchBar> */}
@@ -27,6 +28,7 @@ function App() {
       <Topdestinations></Topdestinations>
       <Flexible></Flexible>
       <TopAttraction></TopAttraction>
+      <TopTours></TopTours>
     </div>
   );
 }
