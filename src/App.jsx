@@ -15,6 +15,7 @@ import Flexible from "./components/flexible/Flexible";
 import TopAttraction from "./components/Top-Attractions/TopAttraction";
 import TopTours from "./components/Top-tours/TopTours";
 import { featuresCard } from "./constants";
+import Reviews from "./components/Reviews/Reviews";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <TopAttraction></TopAttraction>
       <TopTours></TopTours>
       <Flexible el={featuresCard[1]}></Flexible>
+      <Reviews></Reviews>
     </div>
   );
 }

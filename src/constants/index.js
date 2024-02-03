@@ -20,6 +20,7 @@ import {
   tt4,
   tt5,
   tt6,
+  reviewstar,
 } from "../assets";
 
 export const activities = [
@@ -158,4 +159,12 @@ export const featuresCard = [
     description:
       "You'll receive a full refund if you cancel at least 24 hours in advance of most experiences",
   },
+];
+
+export const stars = [
+  { image: reviewstar },
+  { image: reviewstar },
+  { image: reviewstar },
+  { image: reviewstar },
+  { image: reviewstar },
 ];

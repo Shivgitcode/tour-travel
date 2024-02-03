@@ -28,6 +28,8 @@ import tt3 from "./tt3.jpg";
 import tt4 from "./tt4.jpg";
 import tt5 from "./tt5.jpg";
 import tt6 from "./tt6.jpg";
+import reviewstar from "./reviewstar.svg";
+import trustpilot2 from "./truspilot2.svg";
 
 export {
   cross,
@@ -60,4 +62,6 @@ export {
   tt4,
   tt5,
   tt6,
+  reviewstar,
+  trustpilot2,
 };
