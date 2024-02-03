@@ -146,3 +146,16 @@ export const topTours = [
     price: "13,888.00",
   },
 ];
+
+export const featuresCard = [
+  {
+    title: "Keep things",
+    description:
+      "Use Reserve Now & Pay Later to secure the activities you don't want to miss without being locked in",
+  },
+  {
+    title: "Free cancellation",
+    description:
+      "You'll receive a full refund if you cancel at least 24 hours in advance of most experiences",
+  },
+];

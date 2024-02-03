@@ -14,6 +14,7 @@ import Topdestinations from "./components/Top-Destinations/Topdestinations";
 import Flexible from "./components/flexible/Flexible";
 import TopAttraction from "./components/Top-Attractions/TopAttraction";
 import TopTours from "./components/Top-tours/TopTours";
+import { featuresCard } from "./constants";
 
 function App() {
   return (
@@ -26,9 +27,10 @@ function App() {
       <Login></Login>
       <Head></Head>
       <Topdestinations></Topdestinations>
-      <Flexible></Flexible>
+      <Flexible el={featuresCard[0]}></Flexible>
       <TopAttraction></TopAttraction>
       <TopTours></TopTours>
+      <Flexible el={featuresCard[1]}></Flexible>
     </div>
   );
 }
