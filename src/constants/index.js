@@ -21,6 +21,12 @@ import {
   tt5,
   tt6,
   reviewstar,
+  miami,
+  phuket,
+  rio,
+  punta,
+  bali,
+  cancun,
 } from "../assets";
 
 export const activities = [
@@ -167,4 +173,37 @@ export const stars = [
   { image: reviewstar },
   { image: reviewstar },
   { image: reviewstar },
+];
+
+export const warmDestinations = [
+  {
+    name: "Miami",
+    img: miami,
+    tours: "1,273 Tours",
+  },
+  {
+    name: "Phuket",
+    img: phuket,
+    tours: "5,824 Tours",
+  },
+  {
+    name: "Rio de Janeiro",
+    img: rio,
+    tours: "1,273 Tours",
+  },
+  {
+    name: "Punta Cana",
+    img: punta,
+    tours: "3,317 Tours",
+  },
+  {
+    name: "Bali",
+    img: bali,
+    tours: "986 Tours",
+  },
+  {
+    name: "Cancun",
+    img: cancun,
+    tours: "2,317 Tours",
+  },
 ];

@@ -30,6 +30,12 @@ import tt5 from "./tt5.jpg";
 import tt6 from "./tt6.jpg";
 import reviewstar from "./reviewstar.svg";
 import trustpilot2 from "./truspilot2.svg";
+import miami from "./miami.jpg";
+import phuket from "./phuket.jpg";
+import rio from "./rio de generio.jpg";
+import punta from "./punta cana.jpg";
+import bali from "./bali.jpg";
+import cancun from "./cancun.jpg";
 
 export {
   cross,
@@ -64,4 +70,10 @@ export {
   tt6,
   reviewstar,
   trustpilot2,
+  miami,
+  phuket,
+  rio,
+  punta,
+  bali,
+  cancun,
 };
