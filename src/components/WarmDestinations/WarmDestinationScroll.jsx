@@ -4,7 +4,7 @@ import WarmDestinationCard from "./WarmDestinationCard";
 
 export default function WarmDestinationScroll() {
   return (
-    <div className="flex justify-start items-center">
+    <div className="flex items-center overflow-scroll">
       {warmDestinations.map((el) => {
         return <WarmDestinationCard el={el}></WarmDestinationCard>;
       })}
