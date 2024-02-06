@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WarmDestinationCard({ el }) {
   return (
-    <div className="flex min-w-[184px] flex-col justify-start items-start min-h-[301px] rounded-[8px] mr-[16px] flex-1 shadow-md">
+    <div className="flex min-w-[184px] flex-col justify-start items-start min-h-[301px] rounded-[8px] mr-[16px] flex-1 my-shadow2 ">
       <div>
         <img
           src={el.img}
