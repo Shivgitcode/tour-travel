@@ -8,7 +8,7 @@ import { appstore, playstore } from "../../assets";
 
 export default function Footer() {
   return (
-    <div className="bg-black mt-[64px] pt-[24px] h-full">
+    <div className="bg-black mt-[64px] pt-[24px] min-h-[735px]">
       <div className="px-[8px]">
         {/* social media links  */}
         <div className="flex w-full justify-center items-center gap-[26px] pt-[24px] mb-[32px] ">
@@ -52,15 +52,23 @@ export default function Footer() {
 
         {/* images */}
         <div className="flex justify-center items-center w-full gap-4">
-          <div className="px-[8px] border-[1px] flex-1 rounded-[4px]">
-            <img src={playstore} alt="" className="mx-auto" />
+          <div className="px-[8px] border-[1px] flex-1 rounded-[4px] max-h-[44px] ">
+            <img src={playstore} alt="" className="mx-auto mt-[-7px]" />
           </div>
           <div className="px-[8px] border-[1px] rounded-[4px] flex-1">
             <img src={appstore} alt="" className="mx-auto" />
           </div>
         </div>
 
-        <div></div>
+        <div className="flex flex-col w-full items-start mt-[24px] mb-[16px] ">
+          <p className="text-[14px] text-white leading-[21px] mb-[16px]">
+            © 1997-2024 Viator, Inc.
+          </p>
+          <p className="text-[14px] text-white mb-[16px] leading-[21px]">
+            Terms & Conditions
+          </p>
+          {/* <p></p> */}
+        </div>
       </div>
     </div>
   );

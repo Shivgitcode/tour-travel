@@ -20,7 +20,7 @@ export default function Sidebar() {
       animate={showSide ? "hidden" : "visible"}
       variants={variants}
       className={`w-screen h-screen absolute ${
-        showSide ? "z-[2]" : "z-[3]"
+        showSide ? "z-[2] left-[-100%]" : "z-[3]"
       } top-0 bg-white overflow-hidden`}
     >
       <div

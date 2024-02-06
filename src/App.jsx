@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="w-screen h-screen box-border m-0 p-0 overflow-x-hidden overflow-y-scroll">
       <Navbar></Navbar>
-      {/* <Sidebar></Sidebar> */}
+      <Sidebar></Sidebar>
       <Hero></Hero>
       <Features></Features>
       {/* <SearchBar></SearchBar> */}

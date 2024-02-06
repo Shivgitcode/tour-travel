@@ -37,7 +37,7 @@ import punta from "./punta cana.jpg";
 import bali from "./bali.jpg";
 import cancun from "./cancun.jpg";
 import playstore from "./get-on-google-play.svg";
-import appstore from "./get-on-google-play.svg";
+import appstore from "./download-on-app-store.svg";
 
 export {
   cross,
