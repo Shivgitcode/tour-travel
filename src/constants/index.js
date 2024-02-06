@@ -253,3 +253,16 @@ export const popularattractions = [
   "Molokini Crater",
   "Mauna Kea Summit & Observatory",
 ];
+
+export const otherLinks = [
+  "Help Center",
+  "Privacy and Cookies Statement",
+  "About Viator",
+  "Careers",
+  "Sitemap",
+  "Supplier Sign Up",
+  "Travel Agents",
+  "Become an Affiliate",
+  "News",
+  "Viator blog",
+];

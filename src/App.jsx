@@ -18,6 +18,7 @@ import { featuresCard } from "./constants";
 import Reviews from "./components/Reviews/Reviews";
 import WarmDestinations from "./components/WarmDestinations/WarmDestinations";
 import Popularcities from "./components/Popular Cities/Popularcities";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
       <Reviews></Reviews>
       <WarmDestinations></WarmDestinations>
       <Popularcities></Popularcities>
+      <Footer></Footer>
     </div>
   );
 }

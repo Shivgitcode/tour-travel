@@ -36,6 +36,8 @@ import rio from "./rio de generio.jpg";
 import punta from "./punta cana.jpg";
 import bali from "./bali.jpg";
 import cancun from "./cancun.jpg";
+import playstore from "./get-on-google-play.svg";
+import appstore from "./get-on-google-play.svg";
 
 export {
   cross,
@@ -76,4 +78,6 @@ export {
   punta,
   bali,
   cancun,
+  playstore,
+  appstore,
 };
