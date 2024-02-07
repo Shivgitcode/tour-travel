@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
         <div className="w-[75px] flex flex-col items-center justify-center">
           <img src={logo} alt="" />
-          <p className="text-[6.8px] leading-[10.2px] text-[#333333] pt-[1px] font-bold">
+          <p className="text-[6.8px] leading-[10.2px] whitespace-nowrap text-[#333333] pt-[1px] font-bold">
             a TripAdvisor company
           </p>
         </div>

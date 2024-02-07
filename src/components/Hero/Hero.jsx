@@ -13,7 +13,7 @@ export default function Hero() {
           className="w-full h-[330px] object-cover object-center"
         />
         <div className="absolute bg-black/30 w-full h-full top-0"></div>
-        <div className="absolute top-[68px] right-[94px] mx-auto z-[1] w-[70%] flex flex-col items-center justify-center">
+        <div className="absolute top-[68px] right-[75px] mx-auto z-[1] w-[70%] flex flex-col items-center justify-center">
           <h1 className="text-[24px] leading-[43.2px] text-center text-white font-bold pb-[8px] ">
             Do more with Viator
           </h1>

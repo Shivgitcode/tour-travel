@@ -22,7 +22,7 @@ import Footer from "./components/Footer/footer";
 
 function App() {
   return (
-    <div className="w-screen h-screen box-border m-0 p-0 overflow-x-hidden overflow-y-scroll">
+    <div className="w-screen font-text h-screen box-border m-0 p-0 overflow-x-hidden overflow-y-scroll">
       <Navbar></Navbar>
       <Sidebar></Sidebar>
       <Hero></Hero>
